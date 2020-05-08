@@ -1,0 +1,142 @@
+body {
+  background: dodgerblue;
+  background: linear-gradient(to right, dodgerblue, #333);
+}
+
+#container {
+  height: 550px;
+  width: 440px;
+  margin: 100px auto;
+  background: #f7f7f7;
+  box-shadow: 0 0 3px rgba(0, 0, 0, 0.3);
+  border-radius: 30px;
+  -webkit-border-radius: 30px;
+  -moz-border-radius: 30px;
+}
+
+h1 {
+  background: #333;
+  color: #fff;
+  margin: 0;
+  padding: 10px 10px;
+  text-align: center;
+  font-family: 'Dancing Script';
+  font-size: 30px;
+  border-top-left-radius: 30px;
+  border-top-right-radius: 30px;
+  transition: 0.5s;
+  cursor: pointer;
+}
+
+h1:hover {
+  color: dodgerblue;
+  font-size: 33px;
+  transition: 0.5s;
+}
+
+p {
+  padding-left: 20px;
+}
+
+form input[type="text"] {
+  width: 90px;
+}
+
+input {
+  padding-left: 20px;
+  border-radius: 10px;
+}
+
+#tabamt {
+  font-size: 14px;
+  color: #333;
+  background-color: #f7f7f7;
+  width: 60%;
+  padding: 5px 5px 8px 8px;
+  margin-left: 20px;
+}
+
+#tabamt:focus {
+  background: #333;
+  color: #fff;
+  border: 3px solid black;
+  outline: none;
+  transition: 0.5s;
+}
+
+#peopleamt {
+  width: 60%;
+  padding: 5px 5px 8px 8px;
+  margin-left: 20px;
+  color: crimson;
+  background-color: #f7f7f7;
+  font-size: 14px;
+}
+
+#peopleamt:focus {
+  background: #333;
+  transition: 0.5s;
+  outline: none;
+  border: 3px solid dodgerblue;
+}
+
+.dollarSign {
+  display: inline;
+}
+
+#serviceQual {
+  padding: 13px 13px 20px 20px;
+  margin-left: 20px;
+  font-size: 25px;
+}
+
+button {
+  text-transform: uppercase;
+  display: block;
+  margin: 30px auto;
+  background: dodgerblue;
+  border-radius: 10px;
+  width: 200px;
+  height: 50px;
+  font-size: 17px;
+  font-family: 'Orbitron';
+  color: white;
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+button:hover {
+  height: 60px;
+  width: 230px;
+  background: #fff;
+  letter-spacing: 5px;
+  color: dodgerblue;
+  font-size: 23px;
+  transition: 0.5s;
+}
+
+#totalTip {
+  font-size: 30px;
+  margin-top: 5px;
+  text-align: center;
+}
+
+#totalTip:before {
+  content: 'Tip Amount';
+  font-size: 20px;
+  font-weight: bold;
+  text-transform: uppercase;
+  display: block;
+
+}
+
+#totalTip sup {
+  font-size: 20px;
+  top: -18px;
+}
+
+#totalTip small {
+  font-size: 20px;
+  font-weight: bold;
+  display: block;
+}
